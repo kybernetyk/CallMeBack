@@ -1,0 +1,8 @@
+A little OS X app that runs in the background, periodically checks
+if a file exists on a server and then tells Skype to start a call
+to a given user.
+
+This might not work with new skype versions :P
+
+License: GPL3
+(c) Leon Szpilewski, 2009

@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	03258503109B24B6001224E0 /* CallMeBack */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CallMeBack;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	03258510109B24D5001224E0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	03258511109B24D5001224E0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	03258551109B2F7F001224E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03258552109B2F7F001224E0 /* Skype.h */;
+		name = "Skype.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 0;
+	};
+	03258552109B2F7F001224E0 /* Skype.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Skype.h;
+		path = /Volumes/Work/Code/CallMeBack/Skype.framework/Headers/Skype.h;
+		sourceTree = "<absolute>";
+	};
+	032585E3109B3512001224E0 /* NSString+Search.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 659}}";
+			sepNavSelRange = "{246, 68}";
+			sepNavVisRange = "{0, 321}";
+		};
+	};
+	03743A70109C6F0800B3B221 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* CallMeBackAppDelegate.m */;
+		name = "CallMeBackAppDelegate.m: 34";
+		rLen = 48;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 848;
+	};
+	03743A8A109C9F9800B3B221 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* CallMeBackAppDelegate.m */;
+		name = "CallMeBackAppDelegate.m: 165";
+		rLen = 0;
+		rLoc = 5532;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 5172;
+	};
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 634}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* CallMeBackAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 659}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 417}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* CallMeBackAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 3553}}";
+			sepNavSelRange = "{624, 48}";
+			sepNavVisRange = "{1221, 429}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 03258503109B24B6001224E0 /* CallMeBack */;
+		activeTarget = 8D1107260486CEB800E47090 /* CallMeBack */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* CallMeBack */,
+		);
+		codeSenseManager = 03258511109B24D5001224E0 /* Code sense */;
+		executables = (
+			03258503109B24B6001224E0 /* CallMeBack */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1234,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1194,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 278687401;
+			PBXWorkspaceStateSaveDate = 278687401;
+		};
+		perUserProjectItems = {
+			03258551109B2F7F001224E0 /* PBXTextBookmark */ = 03258551109B2F7F001224E0 /* PBXTextBookmark */;
+			03743A70109C6F0800B3B221 /* PBXTextBookmark */ = 03743A70109C6F0800B3B221 /* PBXTextBookmark */;
+			03743A8A109C9F9800B3B221 /* PBXTextBookmark */ = 03743A8A109C9F9800B3B221 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 03258510109B24D5001224E0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* CallMeBack */ = {
+		activeExec = 0;
+		executables = (
+			03258503109B24B6001224E0 /* CallMeBack */,
+		);
+	};
+	8D1107310486CEB800E47090 /* CallMeBack-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 634}}";
+			sepNavSelRange = "{627, 0}";
+			sepNavVisRange = "{0, 1051}";
+		};
+	};
+}

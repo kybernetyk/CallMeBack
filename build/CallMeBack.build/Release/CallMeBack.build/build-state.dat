@@ -1,0 +1,506 @@
+TCallMeBack
+v7
+r0
+t278624201.284031
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Info.plist CallMeBack-Info.plist
+cCopyStringsFile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Volumes/Work/Code/CallMeBack/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch.gch CallMeBack_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch.gch CallMeBack_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/main.o /Volumes/Work/Code/CallMeBack/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBackAppDelegate.o /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/NSString+Search.o /Volumes/Work/Code/CallMeBack/NSString+Search.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack normal i386
+cCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/main.o /Volumes/Work/Code/CallMeBack/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBackAppDelegate.o /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/NSString+Search.o /Volumes/Work/Code/CallMeBack/NSString+Search.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack normal ppc
+cCreateUniversalBinary /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack normal "i386 ppc"
+cGenerateDSYMFile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app.dSYM /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack
+cPBXCp build/Release/CallMeBack.app/Contents/Frameworks/Skype.framework Skype.framework
+cTouch /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004A7680BE00000000000005FE
+t1249280190
+s1534
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/cdefs.h
+c000000004A73D64F0000000000005623
+t1249105487
+s22051
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.h
+c000000004AEAFE3C00000000000001A1
+t1256914492
+s417
+i<Cocoa/Cocoa.h>
+i<Skype/Skype.h>
+
+N/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m
+c000000004AEC37BB0000000000001920
+t1256994747
+s6432
+i"CallMeBackAppDelegate.h"
+i<Skype/Skype.h>
+i"NSString+Search.h"
+
+N/Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch
+c000000004AEAED360000000000000097
+t1256910134
+s151
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/CallMeBack/English.lproj/InfoPlist.strings
+c000000004AEAED36000000000000002D
+t1256910134
+s45
+
+N/Volumes/Work/Code/CallMeBack/English.lproj/MainMenu.xib
+c000000004AEAED36000000000002BB8C
+t1256910134
+s179084
+
+N/Volumes/Work/Code/CallMeBack/NSString+Search.h
+c000000004ABB84440000000000000141
+t1253803076
+s321
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/CallMeBack/NSString+Search.m
+c000000004ABB84510000000000000205
+t1253803089
+s517
+i"NSString+Search.h"
+
+N/Volumes/Work/Code/CallMeBack/Skype.framework
+c00000000465C014500000000000000EE
+t1180434757
+s238
+
+N/Volumes/Work/Code/CallMeBack/Skype.framework/Headers/Skype.h
+c00000000465BFF72000000000000011A
+t1180434290
+s282
+i"SkypeAPI-Carbon.h"
+i"SkypeAPI.h"
+
+N/Volumes/Work/Code/CallMeBack/Skype.framework/Headers/SkypeAPI-Carbon.h
+c00000000465BFF720000000000000540
+t1180434290
+s1344
+i<sys/cdefs.h>
+i<Carbon/Carbon.h>
+
+N/Volumes/Work/Code/CallMeBack/Skype.framework/Headers/SkypeAPI.h
+c00000000465BFF7200000000000004CD
+t1180434290
+s1229
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/CallMeBack/Skype.framework/Skype
+c00000000465BFF980000000000012E64
+t1180434328
+s77412
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack
+t1256915886
+s20056
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack.LinkFileList
+c000000004AEB03A60000000000000157
+t1256915878
+s343
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBackAppDelegate.o
+t1256915886
+s25040
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/NSString+Search.o
+t1256915886
+s6460
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/main.o
+t1256915886
+s4824
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack
+t1256915887
+s19896
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack.LinkFileList
+c000000004AEB03A60000000000000154
+t1256915878
+s340
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBackAppDelegate.o
+t1256915887
+s26944
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/NSString+Search.o
+t1256915887
+s6696
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/main.o
+t1256915886
+s4856
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack
+t2
+s0
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack.LinkFileList
+c000000004AEB011D000000000000015D
+t1256915229
+s349
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBackAppDelegate.o
+t1256915240
+s36084
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/NSString+Search.o
+t1256915240
+s8104
+
+N/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/main.o
+t1256915239
+s5024
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app
+t1256915887
+s102
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app.dSYM
+t1256931401
+s102
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Frameworks/Skype.framework
+t1256915887
+s204
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Info.plist
+t1256915878
+s944
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack
+t1256915887
+s44472
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/PkgInfo
+t1256915878
+s8
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1256915879
+s92
+
+N/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj/MainMenu.nib
+t1256915880
+s34435
+
+N/Volumes/Work/Code/CallMeBack/main.m
+c000000004AEAED3600000000000000F1
+t1256910134
+s241
+i<Cocoa/Cocoa.h>
+
+N/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch.gch
+t1256915885
+s52737616
+
+N/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch.gch
+t1256915236
+s52868880
+
+N/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch.gch
+t1256915886
+s55502640
+
+NCallMeBack-Info.plist
+c000000004AEB00D4000000000000041B
+t1256915156
+s1051
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies278624200#278624200#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBackAppDelegate.o /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s278608686.299912
+e278608686.849398
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBackAppDelegate.o
+x/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':
+o/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:159: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)
+lSLF07#2@61"Compile /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m278608686#278608686#0(332"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:159: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)1(22@155"'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)278608686#108#224#0(6@53"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m278608659#159#0#159#0#33"'*' is deprecated (declared at *)0(0#0#53"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m4300882208#1568"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/i386 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBackAppDelegate.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/NSString+Search.o /Volumes/Work/Code/CallMeBack/NSString+Search.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s278608686.472854
+e278608686.660334
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/NSString+Search.o
+x/Volumes/Work/Code/CallMeBack/NSString+Search.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Volumes/Work/Code/CallMeBack/NSString+Search.m278608686#278608686#0(0"0(0#0#47"/Volumes/Work/Code/CallMeBack/NSString+Search.m4300882208#1556"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/i386 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/NSString+Search.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/NSString+Search.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/main.o /Volumes/Work/Code/CallMeBack/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s278608686.250929
+e278608686.472756
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/main.o
+x/Volumes/Work/Code/CallMeBack/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Volumes/Work/Code/CallMeBack/main.m278608686#278608686#0(0"0(0#0#36"/Volumes/Work/Code/CallMeBack/main.m4300882208#1534"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/i386 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/main.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/main.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBackAppDelegate.o /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s278608686.850547
+e278608687.299067
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBackAppDelegate.o
+x/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':
+o/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:159: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)
+lSLF07#2@61"Compile /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m278608686#278608687#0(332"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:159: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)1(22@155"'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)278608687#108#224#0(6@53"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m278608659#159#0#159#0#33"'*' is deprecated (declared at *)0(0#0#53"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m4300882208#1562"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/ppc -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBackAppDelegate.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/NSString+Search.o /Volumes/Work/Code/CallMeBack/NSString+Search.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s278608686.910821
+e278608687.071721
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/NSString+Search.o
+x/Volumes/Work/Code/CallMeBack/NSString+Search.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Volumes/Work/Code/CallMeBack/NSString+Search.m278608686#278608687#0(0"0(0#0#47"/Volumes/Work/Code/CallMeBack/NSString+Search.m4300882208#1550"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/ppc -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/NSString+Search.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/NSString+Search.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/main.o /Volumes/Work/Code/CallMeBack/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s278608686.660433
+e278608686.850463
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/main.o
+x/Volumes/Work/Code/CallMeBack/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Volumes/Work/Code/CallMeBack/main.m278608686#278608686#0(0"0(0#0#36"/Volumes/Work/Code/CallMeBack/main.m4300882208#1528"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/ppc -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/main.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBackAppDelegate.o /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s278608039.753965
+e278608040.351033
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBackAppDelegate.o
+x/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':
+o/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:138: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)
+lSLF07#2@61"Compile /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m278608039#278608040#0(332"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:138: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)1(22@155"'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)278608040#108#224#0(6@53"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m278607992#138#0#138#0#33"'*' is deprecated (declared at *)0(0#0#53"/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m4300882208#1574"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/x86_64 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBackAppDelegate.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/NSString+Search.o /Volumes/Work/Code/CallMeBack/NSString+Search.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s278608039.921062
+e278608040.120892
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/NSString+Search.o
+x/Volumes/Work/Code/CallMeBack/NSString+Search.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Volumes/Work/Code/CallMeBack/NSString+Search.m278608039#278608040#0(0"0(0#0#47"/Volumes/Work/Code/CallMeBack/NSString+Search.m4300882208#1562"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/x86_64 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/NSString+Search.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/NSString+Search.o0#
+
+CCompileC build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/main.o /Volumes/Work/Code/CallMeBack/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s278608039.753066
+e278608039.920972
+r1
+xCompileC
+xbuild/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/main.o
+x/Volumes/Work/Code/CallMeBack/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Volumes/Work/Code/CallMeBack/main.m278608039#278608039#0(0"0(0#0#36"/Volumes/Work/Code/CallMeBack/main.m4300882208#1540"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/x86_64 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch -c /Volumes/Work/Code/CallMeBack/main.m -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Volumes/Work/Code/CallMeBack/English.lproj/MainMenu.xib
+s278608678.966895
+e278608680.332961
+r1
+xCompileXIB
+x/Volumes/Work/Code/CallMeBack/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib278608678#278608680#0(0"0(0#0#56"/Volumes/Work/Code/CallMeBack/English.lproj/MainMenu.xib4300882208#305"    cd /Volumes/Work/Code/CallMeBack    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj/MainMenu.nib /Volumes/Work/Code/CallMeBack/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s278608678.965011
+e278608679.211941
+r1
+xCopyStringsFile
+x/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings278608678#278608679#0(0"0(0#0#61"/Volumes/Work/Code/CallMeBack/English.lproj/InfoPlist.strings4300882208#352"    cd /Volumes/Work/Code/CallMeBack    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack normal "i386 ppc"
+s278608687.334187
+e278608687.337180
+r1
+xCreateUniversalBinary
+x/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack
+xnormal
+xi386 ppc
+lSLF07#2@94"CreateUniversalBinary build/Release/CallMeBack.app/Contents/MacOS/CallMeBack normal "i386 ppc"278608687#278608687#0(0"0(0#0#38"/Volumes/Work/Code/CallMeBack/i386 ppc4300882208#373"    cd /Volumes/Work/Code/CallMeBack    /usr/bin/lipo -create /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack -output /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack0#
+
+CCreateUniversalBinary /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app.dSYM /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack
+s278624200.960314
+e278624201.283856
+r1
+xGenerateDSYMFile
+x/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app.dSYM
+x/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack
+lSLF07#2@105"GenerateDSYMFile build/Release/CallMeBack.app.dSYM build/Release/CallMeBack.app/Contents/MacOS/CallMeBack278624200#278624201#0(0"0(0#0#84"/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack4300882208#221"    cd /Volumes/Work/Code/CallMeBack    /Developer/usr/bin/dsymutil /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/MacOS/CallMeBack -o /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app.dSYM0#
+
+CLd /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack normal i386
+s278608686.849494
+e278608686.910724
+r1
+xLd
+x/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack
+xnormal
+xi386
+lSLF07#2@113"Link /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack278608686#278608686#0(0"0(0#0#0"4300882208#650"    cd /Volumes/Work/Code/CallMeBack    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -filelist /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Skype -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/i386/CallMeBack0#
+
+CLd /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack normal ppc
+s278608687.299358
+e278608687.334093
+r1
+xLd
+x/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack
+xnormal
+xppc
+lSLF07#2@112"Link /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack278608687#278608687#0(0"0(0#0#0"4300882208#647"    cd /Volumes/Work/Code/CallMeBack    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -filelist /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Skype -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/ppc/CallMeBack0#
+
+CLd /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack normal x86_64
+s278608040.351121
+e278608040.423390
+r0
+xLd
+x/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack
+xnormal
+xx86_64
+old: warning: in /Volumes/Work/Code/CallMeBack/Skype.framework/Skype, missing required architecture x86_64 in file
+oUndefined symbols:
+o  "_OBJC_CLASS_$_SkypeAPI", referenced from:
+o      __objc_classrefs__DATA@0 in CallMeBackAppDelegate.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@115"Link /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack278608040#278608040#0(296"ld: warning: in /Volumes/Work/Code/CallMeBack/Skype.framework/Skype, missing required architecture x86_64 in fileUndefined symbols:  "_OBJC_CLASS_$_SkypeAPI", referenced from:      __objc_classrefs__DATA@0 in CallMeBackAppDelegate.old: symbol(s) not foundcollect2: ld returned 1 exit status5(22@100"In /Volumes/Work/Code/CallMeBack/Skype.framework/Skype, missing required architecture x86_64 in file278608040#0#114#0(6@0"278608040#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_SkypeAPI", referenced from:278608040#133#45#0(6@0"278608040#0#0#0#0#0"0(13@51"__objc_classrefs__DATA@0 in CallMeBackAppDelegate.o278608040#178#58#0(6@0"278608040#0#0#0#0#0"0(13@19"Symbol(s) not found278608040#236#24#0(6@0"278608040#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status278608040#260#36#0(6@0"278608040#0#0#0#0#0"0(0#0#0"4300882208#656"    cd /Volumes/Work/Code/CallMeBack    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -filelist /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Skype -o /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/Objects-normal/x86_64/CallMeBack1#
+
+CPBXCp build/Release/CallMeBack.app/Contents/Frameworks/Skype.framework Skype.framework
+s278608687.345618
+e278608687.391437
+r1
+xPBXCp
+xbuild/Release/CallMeBack.app/Contents/Frameworks/Skype.framework
+xSkype.framework
+lSLF07#2@20"Copy Skype.framework278608687#278608687#0(0"0(0#0#45"/Volumes/Work/Code/CallMeBack/Skype.framework4300882208#331"    cd /Volumes/Work/Code/CallMeBack    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/Work/Code/CallMeBack/Skype.framework /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Info.plist CallMeBack-Info.plist
+s278608678.930684
+e278608678.964927
+r1
+xProcessInfoPlistFile
+x/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Info.plist
+xCallMeBack-Info.plist
+lSLF07#2@29"Process CallMeBack-Info.plist278608678#278608678#0(0"0(0#0#51"/Volumes/Work/Code/CallMeBack/CallMeBack-Info.plist4300882208#296"    cd /Volumes/Work/Code/CallMeBack    builtin-infoPlistUtility CallMeBack-Info.plist -genpkginfo /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch.gch CallMeBack_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s278608680.334261
+e278608685.698851
+r1
+xProcessPCH
+x/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch.gch
+xCallMeBack_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile CallMeBack_Prefix.pch278608680#278608685#0(0"0(0#0#51"/Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch4300882208#1441"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/ppc -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -c /Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch -o /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-bmlkerbqepejixfxwzbfhwzhugde/CallMeBack_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch.gch CallMeBack_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s278608030.424692
+e278608036.392827
+r1
+xProcessPCH
+x/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch.gch
+xCallMeBack_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile CallMeBack_Prefix.pch278608030#278608036#0(0"0(0#0#51"/Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch4300882208#1450"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/x86_64 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -c /Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch -o /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-czlcskeyotixsefmwtwnewurxest/CallMeBack_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch.gch CallMeBack_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s278608680.333218
+e278608686.250833
+r1
+xProcessPCH
+x/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch.gch
+xCallMeBack_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile CallMeBack_Prefix.pch278608680#278608686#0(0"0(0#0#51"/Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch4300882208#1446"    cd /Volumes/Work/Code/CallMeBack    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-generated-files.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-own-target-headers.hmap -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-all-target-headers.hmap -iquote /Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/CallMeBack-project-headers.hmap -F/Volumes/Work/Code/CallMeBack/build/Release -F/Volumes/Work/Code/CallMeBack "-F/Volumes/Work/Code/CallMeBack/../../../Skype API for Mac" -I/Volumes/Work/Code/CallMeBack/build/Release/include -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources/i386 -I/Volumes/Work/Code/CallMeBack/build/CallMeBack.build/Release/CallMeBack.build/DerivedSources -c /Volumes/Work/Code/CallMeBack/CallMeBack_Prefix.pch -o /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CallMeBack_Prefix-dhbgijjckgmtfhgfzcdoxlclhcky/CallMeBack_Prefix.pch.gch0#
+
+CTouch /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app
+s278608687.391515
+e278608687.393886
+r1
+xTouch
+x/Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app
+lSLF07#2@64"Touch /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app278608687#278608687#0(0"0(0#0#0"4300882208#118"    cd /Volumes/Work/Code/CallMeBack    /usr/bin/touch -c /Volumes/Work/Code/CallMeBack/build/Release/CallMeBack.app0#
+

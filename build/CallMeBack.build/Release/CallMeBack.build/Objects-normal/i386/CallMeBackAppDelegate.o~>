@@ -1,0 +1,2 @@
+/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m: In function '-[CallMeBackAppDelegate handleTimer:]':
+/Volumes/Work/Code/CallMeBack/CallMeBackAppDelegate.m:159: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)
